@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		672E6F3F256D21F200E6B239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E6F3E256D21F200E6B239 /* AppDelegate.swift */; };
 		672E6F41256D21F200E6B239 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E6F40256D21F200E6B239 /* SceneDelegate.swift */; };
-		672E6F43256D21F200E6B239 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E6F42256D21F200E6B239 /* ViewController.swift */; };
-		672E6F46256D21F200E6B239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672E6F44256D21F200E6B239 /* Main.storyboard */; };
 		672E6F48256D21F600E6B239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672E6F47256D21F600E6B239 /* Assets.xcassets */; };
 		672E6F4B256D21F600E6B239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672E6F49256D21F600E6B239 /* LaunchScreen.storyboard */; };
+		672E6F57256D22DB00E6B239 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E6F56256D22DB00E6B239 /* LocalNotificationManager.swift */; };
+		672E6F78256D230500E6B239 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E6F6C256D230500E6B239 /* HomePresenter.swift */; };
+		672E6F79256D230500E6B239 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E6F6E256D230500E6B239 /* HomeModel.swift */; };
+		672E6F7A256D230500E6B239 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E6F70256D230500E6B239 /* HomeView.swift */; };
+		672E6F7B256D230500E6B239 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672E6F71256D230500E6B239 /* HomeView.xib */; };
+		672E6F7C256D230500E6B239 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E6F73256D230500E6B239 /* HomeProtocols.swift */; };
+		672E6F7D256D230500E6B239 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E6F75256D230500E6B239 /* HomeInteractor.swift */; };
+		672E6F7E256D230500E6B239 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E6F77256D230500E6B239 /* HomeRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		672E6F3B256D21F200E6B239 /* NotificationsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		672E6F3E256D21F200E6B239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		672E6F40256D21F200E6B239 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		672E6F42256D21F200E6B239 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		672E6F45256D21F200E6B239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		672E6F47256D21F600E6B239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		672E6F4A256D21F600E6B239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		672E6F4C256D21F600E6B239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		672E6F56256D22DB00E6B239 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		672E6F6C256D230500E6B239 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		672E6F6E256D230500E6B239 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		672E6F70256D230500E6B239 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		672E6F71256D230500E6B239 /* HomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		672E6F73256D230500E6B239 /* HomeProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		672E6F75256D230500E6B239 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		672E6F77256D230500E6B239 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,93 @@
 		672E6F3D256D21F200E6B239 /* NotificationsTest */ = {
 			isa = PBXGroup;
 			children = (
-				672E6F3E256D21F200E6B239 /* AppDelegate.swift */,
-				672E6F40256D21F200E6B239 /* SceneDelegate.swift */,
-				672E6F42256D21F200E6B239 /* ViewController.swift */,
-				672E6F44256D21F200E6B239 /* Main.storyboard */,
-				672E6F47256D21F600E6B239 /* Assets.xcassets */,
-				672E6F49256D21F600E6B239 /* LaunchScreen.storyboard */,
+				672E6F6A256D230500E6B239 /* Home */,
+				672E6F54256D22CD00E6B239 /* Project */,
+				672E6F59256D22E900E6B239 /* Utils */,
 				672E6F4C256D21F600E6B239 /* Info.plist */,
 			);
 			path = NotificationsTest;
+			sourceTree = "<group>";
+		};
+		672E6F54256D22CD00E6B239 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				672E6F3E256D21F200E6B239 /* AppDelegate.swift */,
+				672E6F40256D21F200E6B239 /* SceneDelegate.swift */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		672E6F59256D22E900E6B239 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				672E6F56256D22DB00E6B239 /* LocalNotificationManager.swift */,
+				672E6F47256D21F600E6B239 /* Assets.xcassets */,
+				672E6F49256D21F600E6B239 /* LaunchScreen.storyboard */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		672E6F6A256D230500E6B239 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				672E6F6F256D230500E6B239 /* View */,
+				672E6F74256D230500E6B239 /* Interactor */,
+				672E6F72256D230500E6B239 /* Protocols */,
+				672E6F6B256D230500E6B239 /* Presenter */,
+				672E6F6D256D230500E6B239 /* Model */,
+				672E6F76256D230500E6B239 /* Router */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		672E6F6B256D230500E6B239 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				672E6F6C256D230500E6B239 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		672E6F6D256D230500E6B239 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				672E6F6E256D230500E6B239 /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		672E6F6F256D230500E6B239 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				672E6F70256D230500E6B239 /* HomeView.swift */,
+				672E6F71256D230500E6B239 /* HomeView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		672E6F72256D230500E6B239 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				672E6F73256D230500E6B239 /* HomeProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		672E6F74256D230500E6B239 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				672E6F75256D230500E6B239 /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		672E6F76256D230500E6B239 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				672E6F77256D230500E6B239 /* HomeRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +185,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "ÁF";
 				TargetAttributes = {
 					672E6F3A256D21F200E6B239 = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -126,7 +217,7 @@
 			files = (
 				672E6F4B256D21F600E6B239 /* LaunchScreen.storyboard in Resources */,
 				672E6F48256D21F600E6B239 /* Assets.xcassets in Resources */,
-				672E6F46256D21F200E6B239 /* Main.storyboard in Resources */,
+				672E6F7B256D230500E6B239 /* HomeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +228,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				672E6F43256D21F200E6B239 /* ViewController.swift in Sources */,
 				672E6F3F256D21F200E6B239 /* AppDelegate.swift in Sources */,
+				672E6F57256D22DB00E6B239 /* LocalNotificationManager.swift in Sources */,
 				672E6F41256D21F200E6B239 /* SceneDelegate.swift in Sources */,
+				672E6F7D256D230500E6B239 /* HomeInteractor.swift in Sources */,
+				672E6F7A256D230500E6B239 /* HomeView.swift in Sources */,
+				672E6F7C256D230500E6B239 /* HomeProtocols.swift in Sources */,
+				672E6F79256D230500E6B239 /* HomeModel.swift in Sources */,
+				672E6F7E256D230500E6B239 /* HomeRouter.swift in Sources */,
+				672E6F78256D230500E6B239 /* HomePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		672E6F44256D21F200E6B239 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				672E6F45256D21F200E6B239 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		672E6F49256D21F600E6B239 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +385,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AFSopra.NotificationsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +404,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AFSopra.NotificationsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
